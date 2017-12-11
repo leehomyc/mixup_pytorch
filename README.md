@@ -10,13 +10,13 @@ I only tested using CIFAR 10 and CIFAR 100. The network we used is PreAct ResNet
 | ----------------- | ----------- |
 | CIFAR 10 no mixup              | 94.97%      |
 | CIFAR 10 mixup          | 95.53%      |
-| CIFAR 100 no mixup         | 93.62%      |
+| CIFAR 100 no mixup         | 76.53%      |
 | CIFAR 100 mixup         | 77.83%      |
 
 ## CIFAR 10 test accuracy evolution
 ![cifar10](fig/cifar10.png "cifar10 accuracy evolution.")
 ## CIFAR 100 test accuracy evolution
-![cifar100](fig/cifar10.png "cifar100 accuracy evolution.")
+![cifar100](fig/cifar100.png "cifar100 accuracy evolution.")
 
 ## Usage
 ```
