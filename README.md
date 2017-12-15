@@ -21,9 +21,9 @@ I only tested using CIFAR 10 and CIFAR 100. The network we used is PreAct ResNet
 ## Usage
 ```
 # Train and test CIFAR 10 with mixup.
-python main_cifar100.py --mixup --exp='cifar10_nomixup'
+python main_cifar10.py --mixup --exp='cifar10_nomixup'
 # Train and test CIFAR 10 without mixup.
-python main_cifar100.py --exp='cifar10_nomixup'
+python main_cifar10.py --exp='cifar10_nomixup'
 # Train and test CIFAR 100 with mixup.
 python main_cifar100.py --mixup --exp='cifar100_mixup'
 # Train and test CIFAR 100 without mixup.
